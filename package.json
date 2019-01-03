@@ -1,0 +1,27 @@
+{
+  "name": "0004x-xenonanimescraper",
+  "version": "1.0.0",
+  "description": "anime, scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/js/scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm run start"
+  },
+  "keywords": [
+    "anime",
+    "scraper"
+  ],
+  "author": "Xenonheat <femiadesina1125@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "puppeteer": "^1.11.0",
+    "request-promise": "^4.2.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  }
+}
